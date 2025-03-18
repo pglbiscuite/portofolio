@@ -195,6 +195,13 @@ section {
     gap: 24px;
 }
 
+/* Target the specific image container */
+div img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 .linkItem {
     display: flex;
     flex-direction: row !important;
