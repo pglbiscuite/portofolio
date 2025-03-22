@@ -244,9 +244,19 @@ div img {
 }
 
 .ableton-text {
-    color: white; /* Make Ableton text white */
-    font-weight: bold; /* Optional: Make it bold */
-    margin-bottom: 10px; /* Add some spacing below Ableton */
+    color: white;
+    /* font-weight: bold; */
+    font-size: 30px; /* Find the right balance */
+    display: inline-flex; /* Better for alignment */
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering */
+    height: 30px; /* Match your icon height */
+    width: 90px; /* May need to be wider than icons for text */
+    padding-right: 15px;
+    padding-left: 15px;
+    vertical-align: middle;
+    letter-spacing: 0.5px;
+    /* Add a subtle background to make it more icon-like */
+    background-color: rgba(255, 255, 255, 0.1); /* Optional */
+    border-radius: 30px; /* Optional */
 }
-
-  
